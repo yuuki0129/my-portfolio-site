@@ -62,6 +62,7 @@ vertical-align: middle;
     font-size: 1.6rem;
 }
 
+
 .button {
     display: inline-block;
     width: 200px;
@@ -429,6 +430,12 @@ footer p{
         font-size: 5rem;
     }
 
+
+    /* .button {
+        width: 200px;
+        margin: 0 auto;
+    } */
+
     /* ABOUT */
 
     .about {
@@ -554,15 +561,22 @@ footer p{
       .site-title-sub {
         font-size: 1.7rem;
     }
-      .site-title-sub::before,
-      .site-title-sub::after {
+    .site-title-sub::before,
+    .site-title-sub::after {
         display: block;
         width: 80%;
         margin: 10px auto;
     }
-      .site-title {
+    .site-title {
         margin-top: 35px;
         font-size: 5rem;
+        width: 50%;
+        margin: 35px auto 40px;
+    }
+
+    .button {
+        width: 70%;
+        margin: 0 auto;
     }
 
     .button:hover {
@@ -678,16 +692,21 @@ footer p{
         width: 100%;
     }
 
+    .contact-wrapper .row {
+        width: 100%;
+    }
+
     .contact-icon {
         display: table;
         grid-template-columns: 1fr 1fr 1fr;
+        /* width: 80%; */
         /* margin: 0 auto; */
         /* max-width: 800px */
     }
 
     .contact-icon a {
         display: table-cell;
-        /* width: 100%; */
+        /* font-size: 20px; */
         margin: 0;
     }
 
