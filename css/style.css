@@ -681,6 +681,8 @@ footer p{
 
     .skill-text {
         margin: 0;
+        /* word-break: keep-all; */
+        text-align: center;
     }
 
 
